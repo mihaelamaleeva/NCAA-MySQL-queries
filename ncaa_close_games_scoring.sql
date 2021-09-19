@@ -1,4 +1,6 @@
 # There are some limitations of BigQuery, as you can't use DML, views and other functionalities.
+# BigQUery Link: https://console.cloud.google.com/bigquery?sq=453607456612:ac96ed6e3c31403c8547cf17dbf3a6de
+
 
 # What are the average points per game?
 SELECT AVG(points)
