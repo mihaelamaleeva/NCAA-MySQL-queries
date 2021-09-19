@@ -1,4 +1,7 @@
-#Table with all the teams in PAC12 conference of first division 
+# BigQuery Link: https://console.cloud.google.com/bigquery?sq=453607456612:f081e3f378f549bf8ab49044d98f0016
+# The queries from the link can be run if there is logged google account.
+#Table with all the teams in PAC12 conference of first division
+
 SELECT id,name,turner_name,conf_alias
 FROM `bigquery-public-data.ncaa_basketball.mbb_teams` 
 WHERE conf_alias = 'PAC12';
